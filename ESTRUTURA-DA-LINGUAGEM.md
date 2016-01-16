@@ -3,8 +3,7 @@ Estrutura da Linguagem
 ===
 
 # Bloco Anônimo
-
-> Roda em: [Oracle] [PostgreSQL]
+![](https://img.shields.io/badge/Oracle-11g-red.svg) ![](https://img.shields.io/badge/PostgreSQL-9.0-blue.svg)
 
 Em PL/SQL é possível executar um trecho de código anônimamente (sem que o código faça parte de algum objeto como triggers, functions ou procedures), para isso é necessário seguir algumas regras.
 
