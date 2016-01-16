@@ -1,6 +1,9 @@
 
 PL/SQL Expert
 ==========
+Neste guia utilizaremos os ícones abaixo para identificar em que plataforma/versão a instrução foi testada.
+
+![](https://img.shields.io/badge/Oracle-9g-red.svg) ![](https://img.shields.io/badge/PostgreSQL-9.0-blue.svg) ![](https://img.shields.io/badge/MySQL-5.0-green.svg) ![](https://img.shields.io/badge/SQLServer-2010-yellow.svg)
 
 # Apresentação
 > **PL/SQL** é uma linguagem de programação que executa de forma ordenada uma série de comandos buscando atender a uma finalidade.
