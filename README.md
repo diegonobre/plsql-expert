@@ -29,7 +29,7 @@ PL/SQL realiza a integração de blocos procedurais com a linguagem SQL. É uma 
 # Tópicos abordados
 
  1. Primeiros passos
- 2. Funções
+ 2. Funções definidas pelo usuário
  2. Estrutura da linguagem
  3. Controle de fluxo
  4. Cursores em PL/pgSQL
