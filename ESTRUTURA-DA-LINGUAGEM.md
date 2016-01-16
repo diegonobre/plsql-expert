@@ -2,12 +2,16 @@
 Estrutura da Linguagem
 ===
 
-# Bloco Anônimo
+# Blocos de Código
 ![](https://img.shields.io/badge/Oracle-11g-red.svg) ![](https://img.shields.io/badge/PostgreSQL-9.0-blue.svg)
 
-Em PL/SQL é possível executar um trecho de código anônimamente (sem que o código faça parte de algum objeto como triggers, functions ou procedures), para isso é necessário seguir algumas regras.
+Um bloco de código é formado basicamente por:
 
-Um bloco anônimo deve possuir início e fim:
+ - Declaração de variáveis
+ - Regra de negócio
+ - Tipo de retorno
+
+Um bloco de código pode possuir outros blocos aninhados infinitamente, desde que todos possuam início e fim:
 ```sql
 BEGIN
 END;
@@ -29,6 +33,26 @@ BEGIN
 	-- regra de negócio
 	NULL;
 END;
+```
+
+> **Bloco Anônimo**
+Em PL/SQL é possível executar um trecho de código anônimamente (sem que o código faça parte de algum objeto como triggers, functions ou procedures). 
+Quando um bloco de código não faz parte de um objeto de banco, chamamos de "Bloco Anônimo".
+
+# Comentários
+As regras de inserção de comentários em PL/SQL seguem o padrão SQL
+
+ - Comentários em linha
+```sql
+-- isso é um comentário
+```
+ - Comentários em bloco
+```sql
+/*
+Isso é um bloco de comentários
+É ideal quando você possui 
+várias linhas para comentar
+*/
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
