@@ -1,8 +1,8 @@
 
-Linguagem Procedural em Banco de Dados
+PL/SQL Expert
 ==========
 
-## Apresentação
+# Apresentação
 > **PL/SQL** é uma linguagem de programação que executa de forma ordenada uma série de comandos buscando atender a uma finalidade.
 
 SQL e PL/SQL são linguagens criadas para interagir com o banco de Dados. A linguagem SQL acessa e modifica os dados relacionais. Exemplo: 
@@ -17,7 +17,7 @@ Já a linguagem PL/SQL, fornece um mecanismo para os desenvolvedores adicionarem
 
 PL/SQL realiza a integração de blocos procedurais com a linguagem SQL. É uma linguagem de quarta geração (4GL).
 
-## Vantagens
+# Vantagens
 **Suporte às linguagens procedurais:** não é utilizada apenas para manipulação de dados. Fornece também operações comuns em linguagens de programação como: validações, loops, operações aninhadas, etc.
 	
 **Redução do trafego de rede:** devido a natureza do PL/SQL, pode-se fazer com que o mesmo execute um bloco inteiro no engine do banco Oracle de uma unica vez, propiciando uma redução significativa do trafego.
@@ -26,9 +26,10 @@ PL/SQL realiza a integração de blocos procedurais com a linguagem SQL. É uma 
 
 **Portabilidade:** aplicações escritas em PL/SQL podem ser executadas em qualquer sistema operacional
 
-## Tópicos abordados
+# Tópicos abordados
 
- 1. Funções
+ 1. Primeiros passos
+ 2. Funções
  2. Estrutura da linguagem
  3. Controle de fluxo
  4. Cursores em PL/pgSQL
