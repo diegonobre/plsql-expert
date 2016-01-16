@@ -55,4 +55,38 @@ várias linhas para comentar
 */
 ```
 
+# Variáveis
+Como vimos, a declaração de variáveis é realizada logo abaixo da instrução **DECLARE**. Podemos utilizar como tipo de variável qualquer tipo de dado SQL, além de qualquer coluna, tabela ou type existente no banco de dados.
+
+Alguns exemplos:
+```sql
+DECLARE
+	-- valores padrão SQL
+	v_inteiro INTEGER;
+	v_string VARCHAR;
+	v_data DATE;
+	-- você pode criar a variável com um valor padrão
+	v_hoje DATE := SYSDATE; -- oracle
+	v_hoje DATE := CURRENT_DATE; -- postgres
+	
+	-- tipo de dado a partir de uma tabela
+	v_tabela NOME_DA_TABELA%TYPE;
+	-- tipo de dado da coluna
+	v_coluna NOME_DA_TABELA.COLUNA%TYPE;
+	
+BEGIN
+	...
+END;
+```
+
+Para atribuir valor a uma variável dentro do bloco de execução você deve utilizar o operador **:=**
+
+```sql
+DECLARE
+	v_nome VARCHAR;
+BEGIN
+	v_nome := 'Paulo Freire';
+END;
+```
+
 > Written with [StackEdit](https://stackedit.io/).
