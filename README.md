@@ -1,10 +1,9 @@
 
 Linguagem Procedural em Banco de Dados
 ==========
-[TOC]
 
-## Introdução
-> É uma linguagem de programação que executa de forma ordenada uma série de comandos buscando atender a uma finalidade.
+## Apresentação
+> **PL/SQL** é uma linguagem de programação que executa de forma ordenada uma série de comandos buscando atender a uma finalidade.
 
 SQL e PL/SQL são linguagens criadas para interagir com o banco de Dados. A linguagem SQL acessa e modifica os dados relacionais. Exemplo: 
 ```sql
